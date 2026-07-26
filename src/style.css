@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  background-color: var(--md-sys-color-surface);
+}
+
+@keyframes scrim-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scrim-content-in {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
